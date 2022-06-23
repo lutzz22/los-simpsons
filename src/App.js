@@ -8,29 +8,19 @@ import Personajes from './pages/Personajes';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Blog from './pages/Blog';
 import Form from './pages/Form';
-
-// function App() {
-//   return (
-//     <>
-//       <Navbar />
-//       <Carrousel/>
-//       <Personajes />
-//       <Blog />
-//       <Form />
-//       <Footer />
-//     </>
-//   );
-// }
+import Error from './pages/Error';
 
 function App() {
   return(
     <Router>
       <Navbar />
       <Routes>
+        <Route path='/' element={<Carrousel />}/>
         <Route path='/inicio' element={<Carrousel />}> </Route>
         <Route path='/blog' element={<Blog />}> </Route>
         <Route path='/personajes' element={<Personajes />}></Route>
         <Route path='/contacto' element={<Form />}></Route>
+        <Route path='*' element={<Error />}/>
       </Routes>
       <Footer />
     </Router>

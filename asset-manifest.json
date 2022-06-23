@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/los-simpsons/static/css/main.b45c92e4.css",
+    "main.js": "/los-simpsons/static/js/main.5be40c28.js",
+    "static/js/787.321739ba.chunk.js": "/los-simpsons/static/js/787.321739ba.chunk.js",
+    "static/media/carrousel-3.jpg": "/los-simpsons/static/media/carrousel-3.424560c4e6ad8e7d754f.jpg",
+    "static/media/blog1.jpg": "/los-simpsons/static/media/blog1.a2fac171b5b92fffe2da.jpg",
+    "static/media/blog2.jpg": "/los-simpsons/static/media/blog2.b58bfcb1bfd6a4cb3d2c.jpg",
+    "index.html": "/los-simpsons/index.html",
+    "main.b45c92e4.css.map": "/los-simpsons/static/css/main.b45c92e4.css.map",
+    "main.5be40c28.js.map": "/los-simpsons/static/js/main.5be40c28.js.map",
+    "787.321739ba.chunk.js.map": "/los-simpsons/static/js/787.321739ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b45c92e4.css",
+    "static/js/main.5be40c28.js"
+  ]
+}

@@ -1,0 +1,21 @@
+.form{
+    background-color: rgb(255, 188, 5);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.form form{
+    margin: 0 auto;
+    background-color: whitesmoke;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+form .mb-3 input {
+    width: 100%;
+}
+
